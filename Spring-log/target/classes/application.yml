@@ -1,0 +1,21 @@
+
+logging:
+  level:
+    rooot: trace
+    com:
+      suli:
+        cn:
+          springlog:
+            Controller: trace
+  file:
+#    name: logger/log.gog
+    path: log/go
+  logback:
+    rollingpolicy:
+      max-file-size: 10B
+      file-name-pattern: ${LOG_FILE}.%d{yyyy-MM-dd}.%i
+
+server:
+  port: 8090
+
+
