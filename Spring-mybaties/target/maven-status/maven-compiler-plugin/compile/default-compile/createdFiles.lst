@@ -1,0 +1,7 @@
+com\suli\springmybaties\mapper\UserInfoMapper.class
+com\suli\springmybaties\model\UserInfo.class
+com\suli\springmybaties\Controller\UserInfoController.class
+com\suli\springmybaties\mapper\UserInfoMapperXML.class
+com\suli\springmybaties\SpringMybatiesApplication.class
+com\suli\springmybaties\service\UserInfoService.class
+com\suli\springmybaties\model\ArticleInfo.class

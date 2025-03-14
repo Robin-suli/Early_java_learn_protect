@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.suli.springmybaties.mapper.UserInfoMapperXML">
+
+<resultMap id="BaseMap" type="com.suli.springmybaties.model.UserInfo">
+    <id property="id" column="id"></id>
+    <result property="deleteFlag" column="delete_flag"></result>
+    <result property="createTime" column="create_time"></result>
+    <result property="updateTime" column="update_time"></result>
+</resultMap>
+
+    <select id="selectAll" resultType="com.suli.springmybaties.model.UserInfo">
+        SELECT * from user_info
+    </select>
+
+    <select id="selectAll2" resultMap="BaseMap">
+        SELECT * from user_info
+    </select>
+
+
+
+
+    <select id="selectByCondition" resultType="com.suli.springmybaties.model.UserInfo">
+
+
+        SELECT * FROM user_info where 1= 1
+            <if test="phone != null">
+                and phone = #{phone}
+            </if>
+
+            <if test="deleteFlag != null">
+                and delete_flag = #{deleteFlag}
+            </if>
+
+         <!--   SELECT * FROM user_info
+        <where>
+            <if test="phone != null">
+                and phone = #{phone}
+            </if>
+
+            <if test="deleteFlag != null">
+                and delete_flag = #{deleteFlag}
+            </if>
+        </where>-->
+
+        <!--<trim >
+            SELECT * FROM user_info WHERE
+            <if test="phone != null">
+                 phone = #{phone}
+            </if>
+            
+            <if test="deleteFlag != null">
+                and delete_flag = #{deleteFlag}
+            </if>
+
+        </trim>-->
+
+    </select>
+
+
+
+
+
+    <insert id="insertUser">
+        INSERT INTO user_info (username,`password`,age) VALUES(#{username},#{password},#{age})
+    </insert>
+
+<!--    可以获得添加数据的，自增iD-->
+    <insert id="insertUser2" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO user_info (username,`password`,age) VALUES(#{username},#{password},#{age})
+    </insert>
+
+    <insert id="insertUser3">
+
+        INSERT INTO user_info
+
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+        <if test="username != null">
+            username,
+        </if>
+
+        <if test="password != null">
+            `password`,
+        </if>
+
+        <if test="gender != null">
+            gender,
+        </if>
+
+        <if test="age != null">
+            age
+        </if>
+    </trim>
+    VALUES
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+        <if test="username != null">
+            #{username},
+        </if>
+
+        <if test="password != null">
+           #{password},
+        </if>
+
+        <if test="gender != null">
+            #{gender},
+        </if>
+
+        <if test="age != null">
+            #{age}
+        </if>
+
+    </trim>
+
+    </insert>
+
+
+    <insert id="insertUser4">
+
+        INSERT INTO user_info(username,`password`,age) VALUES
+        <foreach collection="userInfos" item="userInfo" separator=",">
+            (#{userInfo.username},#{userInfo.password},#{userInfo.age})
+        </foreach>
+    </insert>
+
+
+    <update id="updateUser">
+        UPDATE user_info SET `password`=#{password}, age=#{age} WHERE id = #{id}
+    </update>
+
+    <!--<update id="updateByConfition">
+        UPDATE user_info SET
+        <trim suffixOverrides=",">
+            <if test="gender != null">
+                gender = #{gender},
+            </if>
+
+            <if test="password != null">
+                password = #{password},
+            </if>
+
+            <if test="age != null">
+                age = #{age},
+            </if>
+
+        </trim>
+        WHERE id = #{id}
+
+    </update>-->
+
+    <update id="updateByConfition">
+        UPDATE user_info
+            <set>
+                <if test="gender != null">
+                    gender = #{gender},
+                </if>
+
+                <if test="password != null">
+                    password = #{password},
+                </if>
+
+                <if test="age != null">
+                    age = #{age},
+                </if>
+            </set>
+        WHERE id = #{id}
+
+    </update>
+
+    <delete id="deleteUser">
+        delete from user_info where id = #{id}
+    </delete>
+
+
+    <delete id="batchDelete">
+
+        DELETE FROM user_info WHERE id in
+        <foreach collection="ids" open="(" close=")" separator="," item="id">
+                #{id}
+        </foreach>
+
+
+
+    </delete>
+
+</mapper>
+
+
+
+
+
+
+
+
+
+

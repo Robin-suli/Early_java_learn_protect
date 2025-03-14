@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.suli.springmybaties.mapper.UserInfoMapperXMLTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.032 s <<< FAILURE! -- in com.suli.springmybaties.mapper.UserInfoMapperXMLTest
+com.suli.springmybaties.mapper.UserInfoMapperXMLTest.selectAll -- Time elapsed: 0.020 s <<< ERROR!
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.suli.springmybaties.mapper.UserInfoMapperXML.selectAll
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
+	at jdk.proxy2/jdk.proxy2.$Proxy128.selectAll(Unknown Source)
+	at com.suli.springmybaties.mapper.UserInfoMapperXMLTest.selectAll(UserInfoMapperXMLTest.java:16)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+
