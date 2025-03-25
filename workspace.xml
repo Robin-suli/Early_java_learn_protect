@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3e4fa7d-c499-4860-962f-7f7a25f5fc9c" name="Default Changelist" comment="留言版前后端交互练习">
+      <change afterPath="$PROJECT_DIR$/../Spring-chatroom/src/main/resources/static/img/2f5c1fd3dd6758bd21469bf6cd6997c0.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-chatroom/src/main/resources/static/img/对话.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-chatroom/src/main/resources/static/img/对话2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-chatroom/src/main/resources/static/img/搜索图标.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-chatroom/src/main/resources/static/img/用户填充.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-chatroom/src/main/resources/static/img/用户填充2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Spring-chatroom/src/main/resources/static/js/client.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/spring_boot_practice/config/ExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/spring_boot_practice/config/ResponseAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/practice/spring_boot_practice/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-chatroom/src/main/java/com/suli/springchatroom/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-chatroom/src/main/java/com/suli/springchatroom/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-chatroom/src/main/resources/static/client.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-chatroom/src/main/resources/static/client.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-chatroom/src/main/resources/static/css/client.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-chatroom/src/main/resources/static/css/client.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-chatroom/src/main/resources/static/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Spring-chatroom/src/main/resources/static/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/spring_boot_practice/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/spring_boot_practice/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/spring_boot_practice/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/spring_boot_practice/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/practice/spring_boot_practice/model/Result/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/practice/spring_boot_practice/model/Result/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/book_add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/book_add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/book_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/book_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/book_update.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/book_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/login.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\My_warehouse\.m2\repository" />
+        <option name="userSettingsFile" value="D:\My_warehouse\.m2\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2pKxNAnfSBPG8HRK8YO72cgFZYr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Second warehouse_code\Spring_boot_practice\src\main\resources\static" />
+      <recent name="D:\Second warehouse_code\Spring_boot_practice\target\classes" />
+      <recent name="D:\Second warehouse_code\Spring_boot_practice\src\main\resources\static\js" />
+      <recent name="D:\Second warehouse_code\Spring_boot_practice\src\main\resources\static\aa" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Second warehouse_code\Spring_boot_practice\src\main\resources\static\js" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.practice.spring_boot_practice" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringBootPracticeApplication">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_boot_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="befor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.practice.spring_boot_practice" />
+      <option name="MAIN_CLASS_NAME" value="com.practice.spring_boot_practice.JsonTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonTest.testJason" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_boot_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="befor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.practice.spring_boot_practice" />
+      <option name="MAIN_CLASS_NAME" value="com.practice.spring_boot_practice.JsonTest" />
+      <option name="METHOD_NAME" value="testJason" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonTest.testJson20Object" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_boot_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="befor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.practice.spring_boot_practice" />
+      <option name="MAIN_CLASS_NAME" value="com.practice.spring_boot_practice.JsonTest" />
+      <option name="METHOD_NAME" value="testJson20Object" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonTest.testObject20Json" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring_boot_practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="befor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.practice.spring_boot_practice" />
+      <option name="MAIN_CLASS_NAME" value="com.practice.spring_boot_practice.JsonTest" />
+      <option name="METHOD_NAME" value="testObject20Json" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootPracticeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Spring_boot_practice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.practice.spring_boot_practice.SpringBootPracticeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.JsonTest.test" />
+        <item itemvalue="JUnit.JsonTest.testObject20Json" />
+        <item itemvalue="JUnit.JsonTest.testJson20Object" />
+        <item itemvalue="JUnit.JsonTest.testJason" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3e4fa7d-c499-4860-962f-7f7a25f5fc9c" name="Default Changelist" comment="" />
+      <created>1732528527623</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732528527623</updated>
+      <workItem from="1732528529225" duration="3263000" />
+      <workItem from="1732551964664" duration="194000" />
+      <workItem from="1732588117770" duration="6496000" />
+      <workItem from="1732637629442" duration="19000" />
+      <workItem from="1732793930479" duration="3116000" />
+      <workItem from="1732898720405" duration="26000" />
+      <workItem from="1733125878826" duration="8499000" />
+      <workItem from="1733148581253" duration="142000" />
+      <workItem from="1736161411530" duration="909000" />
+      <workItem from="1736264024455" duration="565000" />
+      <workItem from="1737192100284" duration="2979000" />
+      <workItem from="1737248212625" duration="10289000" />
+      <workItem from="1737384836987" duration="618000" />
+      <workItem from="1737420690941" duration="15875000" />
+      <workItem from="1737509109092" duration="128000" />
+      <workItem from="1737509254501" duration="5487000" />
+      <workItem from="1737533437981" duration="2456000" />
+      <workItem from="1737537463021" duration="7088000" />
+      <workItem from="1740287387459" duration="95000" />
+      <workItem from="1741843789915" duration="913000" />
+      <workItem from="1741844735121" duration="464000" />
+      <workItem from="1741845231396" duration="9716000" />
+      <workItem from="1742114547029" duration="20506000" />
+      <workItem from="1742200149110" duration="5413000" />
+      <workItem from="1742276153426" duration="19763000" />
+      <workItem from="1742464670205" duration="8103000" />
+      <workItem from="1742715905310" duration="10566000" />
+      <workItem from="1742781077718" duration="6247000" />
+      <workItem from="1742877750866" duration="3490000" />
+    </task>
+    <task id="LOCAL-00001" summary="SpringMVC参数传递练习">
+      <created>1732595334795</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1732595334795</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1.SpringMVC参数传递练习(从url中取值,以及一些特别注解的使用方法)&#10;2.java对象和json对象直接的转换">
+      <created>1733138463070</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733138463070</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Spring-Mvc 部分返回界面练习">
+      <created>1737271865776</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737271865777</updated>
+    </task>
+    <task id="LOCAL-00004" summary="用户登录前后端交互练习">
+      <created>1737468165543</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737468165543</updated>
+    </task>
+    <task id="LOCAL-00005" summary="留言版前后端交互练习">
+      <created>1737552093904</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737552093905</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SpringMVC参数传递练习" />
+    <MESSAGE value="1.SpringMVC参数传递练习(从url中取值,以及一些特别注解的使用方法)&#10;2.java对象和json对象直接的转换" />
+    <MESSAGE value="Spring-Mvc 部分返回界面练习" />
+    <MESSAGE value="用户登录前后端交互练习" />
+    <MESSAGE value="留言版前后端交互练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="留言版前后端交互练习" />
+  </component>
+</project>
